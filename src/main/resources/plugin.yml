@@ -1,0 +1,14 @@
+main: de.xnonymous.warpsystem.Main
+version: "1.0"
+name: WarpSystem
+author: XNonymous
+api-version: 1.13
+commands:
+  setwarp:
+    permission: warpsystem.setwarp
+  warp:
+    permission: warpsystem.warp
+    aliases:
+      - warplist
+  delwarp:
+    permission: warpsystem.delwarp
